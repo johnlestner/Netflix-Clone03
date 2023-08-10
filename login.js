@@ -1,26 +1,26 @@
-const form = document.querySelector("form")
+// const form = document.querySelector("form")
 
-form.addEventListener("submit",(e)=>{
-    e.preventDefault()
+// form.addEventListener("submit",(e)=>{
+//     e.preventDefault()
 
-    const username = form.username.value
-    const password = form.password.value
+//     const username = form.username.value
+//     const password = form.password.value
 
-    const authenticated = authentication(username,password)
+//     const authenticated = authentication(username,password)
 
-    if(authenticated){
-        window.location.href = "index.html"
-    }else{
-        alert("wrong")
-    }
-})
+//     if(authenticated){
+//         window.location.href = "index.html"
+//     }else{
+//         alert("wrong")
+//     }
+// })
 
-// function for checking username and password
+// // function for checking username and password
 
-function authentication(username,password){
-    if(username === "admin" && password === "password"){
-        return true
-    }else{
-        return false
-    }
-}
+// function authentication(username,password){
+//     if(username === "admin" && password === "password"){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
