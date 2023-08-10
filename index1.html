@@ -12,12 +12,15 @@
       <h1>Login</h1>
       <form>
         <label for="username">Username</label>
-        <input type="text" name="username" />
-        <label for="password">Password</label>
-        <input type="password" name="password" />
-        <input type="submit" class="login-btn" value="Login" />
+        <input type="text" name="username" required >
+        <label for="password">Email</label>
+        <input type="Email" name="password" required >
+        <!-- <input type="submit" class="login-btn" value="Login" /> -->
+        <!-- <a href="index.html" class="login-btn"> login</a> -->
+        <input type="hidden" name="_next" value="index.html">
+        <button type="submit" class="login-btn" ><a href="index.html" class="login-btn"> login</a></button>
       </form>
     </div>
-    <script src="./login.js"></script>
+    <!-- <script src="./login.js"></script> -->
   </body>
 </html>
